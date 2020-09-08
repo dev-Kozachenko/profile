@@ -33,11 +33,15 @@ th, td{
 	display:flex;
 }
 
+.white{
+	color: #fff;
+}
+
 .about-me{
 	width:100%;
 	display:flex;
 	padding:10px;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	background-color:#fff;
 	box-shadow:5px 5px 10px #8C8C8C;
 	border-radius:10px;
@@ -46,7 +50,7 @@ th, td{
 
 .header{
 	background-color: #51CF9A;
-	height:200px;
+	height:250px;
 }
 
 .my-name{
@@ -54,7 +58,7 @@ th, td{
 }
 
 .section-main{
-	margin-top:-50px;
+	margin-top:-150px;
 }
 
 .about-me-foto {
@@ -63,5 +67,23 @@ th, td{
 
 .about-me-text{
 	padding-left:10px;
+	margin-left: 50px;
 }
 
+.social{
+	background-color: #51CF9A;
+	display: flex;
+	justify-content:space-between;
+}
+
+.social-icon{
+	padding: 10px;
+}
+
+.social-icon img{
+	height: 20px;
+}
+
+.social-icon:hover{
+	background-color:#31996e;
+}
